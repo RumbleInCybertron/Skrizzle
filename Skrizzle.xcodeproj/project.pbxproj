@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AEA529A529913D7F007B28A3 /* SkrizzleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA529A429913D7F007B28A3 /* SkrizzleApp.swift */; };
+		AEA529A729913D7F007B28A3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA529A629913D7F007B28A3 /* ContentView.swift */; };
+		AEA529A929913D81007B28A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEA529A829913D81007B28A3 /* Assets.xcassets */; };
+		AEA529AD29913D81007B28A3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEA529AC29913D81007B28A3 /* Preview Assets.xcassets */; };
+		AEA529B729913D81007B28A3 /* SkrizzleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA529B629913D81007B28A3 /* SkrizzleTests.swift */; };
+		AEA529C129913D81007B28A3 /* SkrizzleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA529C029913D81007B28A3 /* SkrizzleUITests.swift */; };
+		AEA529C329913D81007B28A3 /* SkrizzleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA529C229913D81007B28A3 /* SkrizzleUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AEA529B329913D81007B28A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEA5299929913D7F007B28A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEA529A029913D7F007B28A3;
+			remoteInfo = Skrizzle;
+		};
+		AEA529BD29913D81007B28A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEA5299929913D7F007B28A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEA529A029913D7F007B28A3;
+			remoteInfo = Skrizzle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AEA529A129913D7F007B28A3 /* Skrizzle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Skrizzle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEA529A429913D7F007B28A3 /* SkrizzleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkrizzleApp.swift; sourceTree = "<group>"; };
+		AEA529A629913D7F007B28A3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AEA529A829913D81007B28A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AEA529AA29913D81007B28A3 /* Skrizzle.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Skrizzle.entitlements; sourceTree = "<group>"; };
+		AEA529AC29913D81007B28A3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AEA529B229913D81007B28A3 /* SkrizzleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkrizzleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEA529B629913D81007B28A3 /* SkrizzleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkrizzleTests.swift; sourceTree = "<group>"; };
+		AEA529BC29913D81007B28A3 /* SkrizzleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkrizzleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEA529C029913D81007B28A3 /* SkrizzleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkrizzleUITests.swift; sourceTree = "<group>"; };
+		AEA529C229913D81007B28A3 /* SkrizzleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkrizzleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AEA5299E29913D7F007B28A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEA529AF29913D81007B28A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEA529B929913D81007B28A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AEA5299829913D7F007B28A3 = {
+			isa = PBXGroup;
+			children = (
+				AEA529A329913D7F007B28A3 /* Skrizzle */,
+				AEA529B529913D81007B28A3 /* SkrizzleTests */,
+				AEA529BF29913D81007B28A3 /* SkrizzleUITests */,
+				AEA529A229913D7F007B28A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AEA529A229913D7F007B28A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEA529A129913D7F007B28A3 /* Skrizzle.app */,
+				AEA529B229913D81007B28A3 /* SkrizzleTests.xctest */,
+				AEA529BC29913D81007B28A3 /* SkrizzleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AEA529A329913D7F007B28A3 /* Skrizzle */ = {
+			isa = PBXGroup;
+			children = (
+				AEA529A429913D7F007B28A3 /* SkrizzleApp.swift */,
+				AEA529A629913D7F007B28A3 /* ContentView.swift */,
+				AEA529A829913D81007B28A3 /* Assets.xcassets */,
+				AEA529AA29913D81007B28A3 /* Skrizzle.entitlements */,
+				AEA529AB29913D81007B28A3 /* Preview Content */,
+			);
+			path = Skrizzle;
+			sourceTree = "<group>";
+		};
+		AEA529AB29913D81007B28A3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AEA529AC29913D81007B28A3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AEA529B529913D81007B28A3 /* SkrizzleTests */ = {
+			isa = PBXGroup;
+			children = (
+				AEA529B629913D81007B28A3 /* SkrizzleTests.swift */,
+			);
+			path = SkrizzleTests;
+			sourceTree = "<group>";
+		};
+		AEA529BF29913D81007B28A3 /* SkrizzleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AEA529C029913D81007B28A3 /* SkrizzleUITests.swift */,
+				AEA529C229913D81007B28A3 /* SkrizzleUITestsLaunchTests.swift */,
+			);
+			path = SkrizzleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AEA529A029913D7F007B28A3 /* Skrizzle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEA529C629913D81007B28A3 /* Build configuration list for PBXNativeTarget "Skrizzle" */;
+			buildPhases = (
+				AEA5299D29913D7F007B28A3 /* Sources */,
+				AEA5299E29913D7F007B28A3 /* Frameworks */,
+				AEA5299F29913D7F007B28A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Skrizzle;
+			productName = Skrizzle;
+			productReference = AEA529A129913D7F007B28A3 /* Skrizzle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AEA529B129913D81007B28A3 /* SkrizzleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEA529C929913D81007B28A3 /* Build configuration list for PBXNativeTarget "SkrizzleTests" */;
+			buildPhases = (
+				AEA529AE29913D81007B28A3 /* Sources */,
+				AEA529AF29913D81007B28A3 /* Frameworks */,
+				AEA529B029913D81007B28A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEA529B429913D81007B28A3 /* PBXTargetDependency */,
+			);
+			name = SkrizzleTests;
+			productName = SkrizzleTests;
+			productReference = AEA529B229913D81007B28A3 /* SkrizzleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AEA529BB29913D81007B28A3 /* SkrizzleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEA529CC29913D81007B28A3 /* Build configuration list for PBXNativeTarget "SkrizzleUITests" */;
+			buildPhases = (
+				AEA529B829913D81007B28A3 /* Sources */,
+				AEA529B929913D81007B28A3 /* Frameworks */,
+				AEA529BA29913D81007B28A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEA529BE29913D81007B28A3 /* PBXTargetDependency */,
+			);
+			name = SkrizzleUITests;
+			productName = SkrizzleUITests;
+			productReference = AEA529BC29913D81007B28A3 /* SkrizzleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AEA5299929913D7F007B28A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					AEA529A029913D7F007B28A3 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					AEA529B129913D81007B28A3 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = AEA529A029913D7F007B28A3;
+					};
+					AEA529BB29913D81007B28A3 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = AEA529A029913D7F007B28A3;
+					};
+				};
+			};
+			buildConfigurationList = AEA5299C29913D7F007B28A3 /* Build configuration list for PBXProject "Skrizzle" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AEA5299829913D7F007B28A3;
+			productRefGroup = AEA529A229913D7F007B28A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AEA529A029913D7F007B28A3 /* Skrizzle */,
+				AEA529B129913D81007B28A3 /* SkrizzleTests */,
+				AEA529BB29913D81007B28A3 /* SkrizzleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AEA5299F29913D7F007B28A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEA529AD29913D81007B28A3 /* Preview Assets.xcassets in Resources */,
+				AEA529A929913D81007B28A3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEA529B029913D81007B28A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEA529BA29913D81007B28A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AEA5299D29913D7F007B28A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEA529A729913D7F007B28A3 /* ContentView.swift in Sources */,
+				AEA529A529913D7F007B28A3 /* SkrizzleApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEA529AE29913D81007B28A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEA529B729913D81007B28A3 /* SkrizzleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEA529B829913D81007B28A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEA529C329913D81007B28A3 /* SkrizzleUITestsLaunchTests.swift in Sources */,
+				AEA529C129913D81007B28A3 /* SkrizzleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AEA529B429913D81007B28A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AEA529A029913D7F007B28A3 /* Skrizzle */;
+			targetProxy = AEA529B329913D81007B28A3 /* PBXContainerItemProxy */;
+		};
+		AEA529BE29913D81007B28A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AEA529A029913D7F007B28A3 /* Skrizzle */;
+			targetProxy = AEA529BD29913D81007B28A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AEA529C429913D81007B28A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AEA529C529913D81007B28A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AEA529C729913D81007B28A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Skrizzle/Skrizzle.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Skrizzle/Preview Content\"";
+				DEVELOPMENT_TEAM = K8P9Z63PW5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KitsuneCom.Skrizzle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AEA529C829913D81007B28A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Skrizzle/Skrizzle.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Skrizzle/Preview Content\"";
+				DEVELOPMENT_TEAM = K8P9Z63PW5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KitsuneCom.Skrizzle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AEA529CA29913D81007B28A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K8P9Z63PW5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KitsuneCom.SkrizzleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Skrizzle.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Skrizzle";
+			};
+			name = Debug;
+		};
+		AEA529CB29913D81007B28A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K8P9Z63PW5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KitsuneCom.SkrizzleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Skrizzle.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Skrizzle";
+			};
+			name = Release;
+		};
+		AEA529CD29913D81007B28A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K8P9Z63PW5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KitsuneCom.SkrizzleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Skrizzle;
+			};
+			name = Debug;
+		};
+		AEA529CE29913D81007B28A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K8P9Z63PW5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KitsuneCom.SkrizzleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Skrizzle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AEA5299C29913D7F007B28A3 /* Build configuration list for PBXProject "Skrizzle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEA529C429913D81007B28A3 /* Debug */,
+				AEA529C529913D81007B28A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEA529C629913D81007B28A3 /* Build configuration list for PBXNativeTarget "Skrizzle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEA529C729913D81007B28A3 /* Debug */,
+				AEA529C829913D81007B28A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEA529C929913D81007B28A3 /* Build configuration list for PBXNativeTarget "SkrizzleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEA529CA29913D81007B28A3 /* Debug */,
+				AEA529CB29913D81007B28A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEA529CC29913D81007B28A3 /* Build configuration list for PBXNativeTarget "SkrizzleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEA529CD29913D81007B28A3 /* Debug */,
+				AEA529CE29913D81007B28A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AEA5299929913D7F007B28A3 /* Project object */;
+}
