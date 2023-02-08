@@ -7,20 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE9236142993801D00F9830F /* makefile in Sources */ = {isa = PBXBuildFile; fileRef = AE9236132993801D00F9830F /* makefile */; };
 		AEA529A529913D7F007B28A3 /* SkrizzleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA529A429913D7F007B28A3 /* SkrizzleApp.swift */; };
-		AEA529A729913D7F007B28A3 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA529A629913D7F007B28A3 /* MeetingView.swift */; };
-		AEA529A929913D81007B28A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEA529A829913D81007B28A3 /* Assets.xcassets */; };
 		AEA529AD29913D81007B28A3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEA529AC29913D81007B28A3 /* Preview Assets.xcassets */; };
 		AEA529B729913D81007B28A3 /* SkrizzleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA529B629913D81007B28A3 /* SkrizzleTests.swift */; };
 		AEA529C129913D81007B28A3 /* SkrizzleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA529C029913D81007B28A3 /* SkrizzleUITests.swift */; };
 		AEA529C329913D81007B28A3 /* SkrizzleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA529C229913D81007B28A3 /* SkrizzleUITestsLaunchTests.swift */; };
 		AEA529D129914B4C007B28A3 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA529D029914B4C007B28A3 /* Theme.swift */; };
 		AEA529D329914D0D007B28A3 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA529D229914D0D007B28A3 /* DailyScrum.swift */; };
-		AEA529D529915153007B28A3 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA529D429915153007B28A3 /* CardView.swift */; };
 		AEA529D7299238EE007B28A3 /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA529D6299238EE007B28A3 /* TrailingIconLabelStyle.swift */; };
-		AEA529D92992655A007B28A3 /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA529D82992655A007B28A3 /* ScrumsView.swift */; };
 		AEFAEBBF29928D7000A19E19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEFAEBBE29928D7000A19E19 /* Assets.xcassets */; };
-		AEFAEBC12992996900A19E19 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFAEBC02992996900A19E19 /* DetailView.swift */; };
+		AEFAEBDD2993728C00A19E19 /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFAEBDA2993728C00A19E19 /* ScrumsView.swift */; };
+		AEFAEBDE2993728C00A19E19 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFAEBDB2993728C00A19E19 /* MeetingView.swift */; };
+		AEFAEBDF2993728C00A19E19 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFAEBD92993728C00A19E19 /* CardView.swift */; };
+		AEFAEBE02993728C00A19E19 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFAEBD82993728C00A19E19 /* DetailView.swift */; };
+		AEFAEBE12993728C00A19E19 /* DetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFAEBDC2993728C00A19E19 /* DetailEditView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,10 +42,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AE9236132993801D00F9830F /* makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = makefile; sourceTree = "<group>"; };
 		AEA529A129913D7F007B28A3 /* Skrizzle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Skrizzle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEA529A429913D7F007B28A3 /* SkrizzleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkrizzleApp.swift; sourceTree = "<group>"; };
-		AEA529A629913D7F007B28A3 /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
-		AEA529A829913D81007B28A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AEA529AA29913D81007B28A3 /* Skrizzle.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Skrizzle.entitlements; sourceTree = "<group>"; };
 		AEA529AC29913D81007B28A3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AEA529B229913D81007B28A3 /* SkrizzleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkrizzleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -54,11 +54,13 @@
 		AEA529C229913D81007B28A3 /* SkrizzleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkrizzleUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		AEA529D029914B4C007B28A3 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		AEA529D229914D0D007B28A3 /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
-		AEA529D429915153007B28A3 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		AEA529D6299238EE007B28A3 /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
-		AEA529D82992655A007B28A3 /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
 		AEFAEBBE29928D7000A19E19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../Downloads/PersistingData/StartingProject/Scrumdinger/Assets.xcassets; sourceTree = "<group>"; };
-		AEFAEBC02992996900A19E19 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		AEFAEBD82993728C00A19E19 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		AEFAEBD92993728C00A19E19 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		AEFAEBDA2993728C00A19E19 /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
+		AEFAEBDB2993728C00A19E19 /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
+		AEFAEBDC2993728C00A19E19 /* DetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,9 +88,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AE923612299373F700F9830F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AEFAEBD82993728C00A19E19 /* DetailView.swift */,
+				AEFAEBD92993728C00A19E19 /* CardView.swift */,
+				AEFAEBDA2993728C00A19E19 /* ScrumsView.swift */,
+				AEFAEBDB2993728C00A19E19 /* MeetingView.swift */,
+				AEFAEBDC2993728C00A19E19 /* DetailEditView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		AEA5299829913D7F007B28A3 = {
 			isa = PBXGroup;
 			children = (
+				AE9236132993801D00F9830F /* makefile */,
 				AEA529A329913D7F007B28A3 /* Skrizzle */,
 				AEA529B529913D81007B28A3 /* SkrizzleTests */,
 				AEA529BF29913D81007B28A3 /* SkrizzleUITests */,
@@ -111,14 +126,10 @@
 			children = (
 				AEFAEBBE29928D7000A19E19 /* Assets.xcassets */,
 				AEA529CF29914B18007B28A3 /* Models */,
+				AE923612299373F700F9830F /* Views */,
 				AEA529A429913D7F007B28A3 /* SkrizzleApp.swift */,
-				AEA529A629913D7F007B28A3 /* MeetingView.swift */,
-				AEA529D429915153007B28A3 /* CardView.swift */,
-				AEA529D82992655A007B28A3 /* ScrumsView.swift */,
-				AEA529A829913D81007B28A3 /* Assets.xcassets */,
 				AEA529AA29913D81007B28A3 /* Skrizzle.entitlements */,
 				AEA529AB29913D81007B28A3 /* Preview Content */,
-				AEFAEBC02992996900A19E19 /* DetailView.swift */,
 			);
 			path = Skrizzle;
 			sourceTree = "<group>";
@@ -264,7 +275,6 @@
 			files = (
 				AEA529AD29913D81007B28A3 /* Preview Assets.xcassets in Resources */,
 				AEFAEBBF29928D7000A19E19 /* Assets.xcassets in Resources */,
-				AEA529A929913D81007B28A3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,13 +300,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				AEA529D329914D0D007B28A3 /* DailyScrum.swift in Sources */,
-				AEFAEBC12992996900A19E19 /* DetailView.swift in Sources */,
+				AEFAEBDD2993728C00A19E19 /* ScrumsView.swift in Sources */,
 				AEA529D7299238EE007B28A3 /* TrailingIconLabelStyle.swift in Sources */,
+				AEFAEBDE2993728C00A19E19 /* MeetingView.swift in Sources */,
+				AE9236142993801D00F9830F /* makefile in Sources */,
 				AEA529D129914B4C007B28A3 /* Theme.swift in Sources */,
-				AEA529D92992655A007B28A3 /* ScrumsView.swift in Sources */,
-				AEA529A729913D7F007B28A3 /* MeetingView.swift in Sources */,
+				AEFAEBE02993728C00A19E19 /* DetailView.swift in Sources */,
+				AEFAEBE12993728C00A19E19 /* DetailEditView.swift in Sources */,
+				AEFAEBDF2993728C00A19E19 /* CardView.swift in Sources */,
 				AEA529A529913D7F007B28A3 /* SkrizzleApp.swift in Sources */,
-				AEA529D529915153007B28A3 /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
