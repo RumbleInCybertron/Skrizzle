@@ -5,7 +5,7 @@
 //  Created by Derek Haus on 2023/02/06.
 //
 
-import SwiftUI
+import Foundation
 
 struct DailyScrum: Identifiable {
     let id: UUID
@@ -20,7 +20,6 @@ struct DailyScrum: Identifiable {
         self.attendees = attendees.map { Attendee(name: $0) }
         self.lengthInMinutes = lengthInMinutes
         self.theme = theme
-        
     }
 }
 
@@ -44,6 +43,13 @@ extension DailyScrum {
     
     var data: Data {
         Data(title: title, attendees: attendees, lengthInMinutes: Double(lengthInMinutes), theme: theme )
+    }
+    
+    mutating func update(from data: Data) {
+        title = data.title
+        attendees = data.attendees
+        lengthInMinutes = Int(data.lengthInMinutes)
+        theme = data.theme
     }
 }
 
