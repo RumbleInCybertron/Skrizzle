@@ -24,6 +24,7 @@ struct DetailEditView: View {
                     Text("\(Int(data.lengthInMinutes))分")
                         .accessibilityHidden(true)
                 }
+                ThemePicker(selection: $data.theme)
             }
             Section(header: Text("出席者")) {
                 ForEach(data.attendees) { attendee in
