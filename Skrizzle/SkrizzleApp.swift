@@ -9,12 +9,22 @@ import SwiftUI
 
 @main
 struct SkrizzleApp: App {
-    @State private var scrums = DailyScrum.sampleData
+    @StateObject private var store = ScrumStore()
     
     var body: some Scene {
         WindowGroup {
             NavigationView {
-                ScrumsView(scrums: $scrums)
+                ScrumsView(scrums: $store.scrums)
+            }
+            .onAppear {
+                Scrum.load { result in
+                    switch result {
+                    case .failure(let error):
+                        fatalError(error.localizedDescription)
+                    case .success(let scrums):
+                        store.scrums = scrums
+                    }
+                }
             }
         }
     }
