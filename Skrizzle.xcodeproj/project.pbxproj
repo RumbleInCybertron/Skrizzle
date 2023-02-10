@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		AE2611272996019900A4B2C2 /* MeetingHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2611262996019900A4B2C2 /* MeetingHeaderView.swift */; };
 		AE261129299605AE00A4B2C2 /* ScrumProgressViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE261128299605AE00A4B2C2 /* ScrumProgressViewStyle.swift */; };
+		AE26112B299608BA00A4B2C2 /* ScrumTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE26112A299608BA00A4B2C2 /* ScrumTimer.swift */; };
 		AE677E3B29938A8B00F4C620 /* ThemePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE677E3A29938A8B00F4C620 /* ThemePicker.swift */; };
 		AE923616299384F600F9830F /* ThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE923615299384F600F9830F /* ThemeView.swift */; };
 		AEA529A529913D7F007B28A3 /* SkrizzleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA529A429913D7F007B28A3 /* SkrizzleApp.swift */; };
@@ -47,6 +48,7 @@
 /* Begin PBXFileReference section */
 		AE2611262996019900A4B2C2 /* MeetingHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingHeaderView.swift; sourceTree = "<group>"; };
 		AE261128299605AE00A4B2C2 /* ScrumProgressViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumProgressViewStyle.swift; sourceTree = "<group>"; };
+		AE26112A299608BA00A4B2C2 /* ScrumTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumTimer.swift; sourceTree = "<group>"; };
 		AE677E3A29938A8B00F4C620 /* ThemePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePicker.swift; sourceTree = "<group>"; };
 		AE923615299384F600F9830F /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
 		AEA529A129913D7F007B28A3 /* Skrizzle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Skrizzle.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -174,6 +176,7 @@
 				AEA529D029914B4C007B28A3 /* Theme.swift */,
 				AEA529D229914D0D007B28A3 /* DailyScrum.swift */,
 				AEA529D6299238EE007B28A3 /* TrailingIconLabelStyle.swift */,
+				AE26112A299608BA00A4B2C2 /* ScrumTimer.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -310,6 +313,7 @@
 			files = (
 				AEA529D329914D0D007B28A3 /* DailyScrum.swift in Sources */,
 				AE261129299605AE00A4B2C2 /* ScrumProgressViewStyle.swift in Sources */,
+				AE26112B299608BA00A4B2C2 /* ScrumTimer.swift in Sources */,
 				AE923616299384F600F9830F /* ThemeView.swift in Sources */,
 				AEFAEBDD2993728C00A19E19 /* ScrumsView.swift in Sources */,
 				AE2611272996019900A4B2C2 /* MeetingHeaderView.swift in Sources */,
