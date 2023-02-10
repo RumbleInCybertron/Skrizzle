@@ -31,7 +31,7 @@ class ScrumTimer: ObservableObject {
     private var secondsElapsedForSpeaker: Int = 0
     private var speakerIndex: Int = 0
     private var speakerText: String {
-        return "スピーカー \(speakerIndex + 1): " + speakers[speakerIndex].name
+        return "発言者\(speakerIndex + 1): " + speakers[speakerIndex].name
     }
     private var startDate: Date?
     
@@ -114,7 +114,7 @@ extension DailyScrum {
 extension Array where Element == DailyScrum.Attendee {
     var speakers: [ScrumTimer.Speaker] {
         if isEmpty {
-            return [ScrumTimer.Speaker(name: "スピーカー　1", isCompleted: false)]
+            return [ScrumTimer.Speaker(name: "発言者1", isCompleted: false)]
         } else {
             return map { ScrumTimer.Speaker(name: $0.name, isCompleted: false) }
         }

@@ -20,5 +20,83 @@
             landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FB2DCC8F-75C1-4083-A84B-C52C1848F74D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Skrizzle/Models/History.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "init(id:date:attendees:lengthInMinutes:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "FB2DCC8F-75C1-4083-A84B-C52C1848F74D - 427b06bf9eedcc2f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "default argument 0 of Skrizzle.History.init(id: Foundation.UUID, date: Foundation.Date, attendees: Swift.Array&lt;Skrizzle.DailyScrum.Attendee&gt;, lengthInMinutes: Swift.Int) -&gt; Skrizzle.History"
+                  moduleName = "Skrizzle"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cyb3rf0x/repos/Skrizzle/Skrizzle/Models/History.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "8">
+               </Location>
+               <Location
+                  uuid = "FB2DCC8F-75C1-4083-A84B-C52C1848F74D - 22b625eee62683d0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "default argument 1 of Skrizzle.History.init(id: Foundation.UUID, date: Foundation.Date, attendees: Swift.Array&lt;Skrizzle.DailyScrum.Attendee&gt;, lengthInMinutes: Swift.Int) -&gt; Skrizzle.History"
+                  moduleName = "Skrizzle"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cyb3rf0x/repos/Skrizzle/Skrizzle/Models/History.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "8">
+               </Location>
+               <Location
+                  uuid = "FB2DCC8F-75C1-4083-A84B-C52C1848F74D - 6c2c7e4d919fe7d2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "default argument 3 of Skrizzle.History.init(id: Foundation.UUID, date: Foundation.Date, attendees: Swift.Array&lt;Skrizzle.DailyScrum.Attendee&gt;, lengthInMinutes: Swift.Int) -&gt; Skrizzle.History"
+                  moduleName = "Skrizzle"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cyb3rf0x/repos/Skrizzle/Skrizzle/Models/History.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "8">
+               </Location>
+               <Location
+                  uuid = "FB2DCC8F-75C1-4083-A84B-C52C1848F74D - 70b848ef2c494ef0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Skrizzle.History.init(id: Foundation.UUID, date: Foundation.Date, attendees: Swift.Array&lt;Skrizzle.DailyScrum.Attendee&gt;, lengthInMinutes: Swift.Int) -&gt; Skrizzle.History"
+                  moduleName = "Skrizzle"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cyb3rf0x/repos/Skrizzle/Skrizzle/Models/History.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "272">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>
