@@ -14,10 +14,16 @@ struct SkrizzleApp: App {
     var body: some Scene {
         WindowGroup {
             NavigationView {
-                ScrumsView(scrums: $store.scrums)
+                ScrumsView(scrums: $store.scrums) {
+                    ScrumStore.save(scrums: store.scrums) { result in
+                        if case .failure(let error) = result {
+                            fatalError(error.localizedDescription)
+                        }
+                    }
+                }
             }
             .onAppear {
-                Scrum.load { result in
+                ScrumStore.load { result in
                     switch result {
                     case .failure(let error):
                         fatalError(error.localizedDescription)
